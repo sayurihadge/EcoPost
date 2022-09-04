@@ -1,0 +1,104 @@
+* {
+   font-family: "Monaco", monospace;
+
+}
+
+body,
+html {
+  height: 100%;
+  font-size: 20px;
+  font-family: "Monaco", monospace;
+  line-height: 1.5em;
+  margin: 0em;
+  background-color: #94E194;
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-family: "Monaco", monospace;
+  color: #94E194;
+  text-align: center;
+}
+
+.logo {
+  margin-left: 33%;
+}
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #94E194;
+}
+
+
+li.nav {
+  float: right;
+  font-size: 20px;
+}
+
+li.nav a {
+  display: block;
+  color: #94E194;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav a:hover {
+  background-color: #94E194;
+  color: #FFFFFF;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #FFFFFF;
+  padding: 5px;
+
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 15%;
+}
+
+.intro-text {
+  background-color: #FFFFFF;
+  padding: 2%;
+  margin: 2%;
+  color: #94E194;
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  text-align: center;
+  top: 5px;
+}
+
+.main-message {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #94E194;
+  background-size: cover;
+  min-height: 100%;
+  background-attachment: fixed;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .flex-container{
+      flex-wrap: wrap;
+top: 20%;
+    }
+  }

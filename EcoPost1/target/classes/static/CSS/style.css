@@ -1,0 +1,166 @@
+* {
+   font-family: "Monaco", monospace;
+
+}
+
+body {background-color: #94E194;}
+
+.container {
+  padding: 30px;
+  border: 1px #bcc3c4;
+  margin: 10px;
+  border-style: solid;
+}
+.navbar-brand {
+   font-size: 25px;
+   color: #a6a4a1;
+}
+
+.btn-top {
+   width: 7rem;
+   border-radius: 3rem;
+   border: 0.1rem solid #b7e0eb;
+   background-color: #b7e0eb;
+   color: white;
+}
+
+.btn-top:hover {
+   background-color: #97c1cf;
+}
+
+#login, #register {
+   margin-left: 2rem;
+   margin-right: 2rem;
+   text-align: center;
+   color: white;
+   margin-top: 10px;
+}
+
+.form-control {
+  margin-top: 10px;
+  width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#profile_page {
+  margin-left: 45%;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+#followers {
+  font-size: 20px;
+  margin-left: 35%;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+#following {
+  font-size: 20px;
+  margin-left: 7%;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+#points {
+  font-size: 20px;
+  margin-left: 7%;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+#upld-btn {
+  margin-left: 44%;
+  width: 10rem;
+  font: "Monaco";
+  margin-top: 120px;
+}
+
+#allPosts {
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+.grid-item {
+  margin-left: 35%;
+  padding: 20px;
+}
+
+#upload {
+  margin-bottom: 50px;
+}
+
+label {
+  margin-left: 30%;
+}
+
+#caption {
+  margin-left: 40%;
+}
+
+.flex-container {
+  margin-left: 38%;
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.btn {
+  margin-left: 30px;
+}
+
+#upload {
+  margin-left: 610px;
+  margin-top: 100px;
+  width: 150px;
+}
+
+#display-image {
+  margin-left: 37%;
+  margin-top: 2%;
+}
+
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-color: #94E194;
+}
+
+
+li.nav {
+  float: right;
+  font-size: 20px;
+}
+
+li.nav a {
+  display: block;
+  color: #94E194;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav a:hover {
+  background-color: #94E194;
+  color: #FFFFFF;
+}
